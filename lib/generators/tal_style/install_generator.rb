@@ -8,7 +8,7 @@ module TalStyle
     end
 
     def create_root_reek_yml
-      template "reek", ".reek", orce: true
+      template "reek", ".reek", force: true
     end
 
     def create_root_rubocop
