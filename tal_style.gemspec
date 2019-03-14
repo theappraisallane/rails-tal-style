@@ -19,8 +19,7 @@ TAL styles were installed!
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rubocop', '~> 0.63', '< 0.64'
-
-  spec.add_development_dependency 'bundler', '~> 1.10'
-  spec.add_development_dependency 'rake', '~> 11.0'
+  spec.add_dependency 'rubocop', '~> 0.51', '< 0.65'
+  spec.add_dependency 'rails_best_practices', '<= 1.19.4'
+  spec.add_dependency 'reek', '<= 5.3.1'
 end

@@ -1,0 +1,28 @@
+Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/ParallelAssignment:
+  Enabled: false
+Style/NumericPredicate:
+  Enabled: false
+Metrics/LineLength:
+  Description: 'Limit lines to 120 characters.'
+  Max: 120
+Metrics/BlockLength:
+  CountComments: false
+  Max: 25
+Metrics/MethodLength:
+  Description: 'Avoid methods longer than `Max` lines of code.'
+  CountComments: false
+  Max: 15
+  Enabled: true
+Metrics/ClassLength:
+  Enabled: false
+AllCops:
+  Exclude:
+    - bin/**/*
+    - vendor/**/*
+    - db/schema.rb
+Rails:
+  Enabled: true

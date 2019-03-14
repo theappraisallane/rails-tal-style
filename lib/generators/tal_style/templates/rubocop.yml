@@ -1,1 +1,2 @@
-prueba
+inherit_gem:
+  tal_style: rails/rubocop.yml
