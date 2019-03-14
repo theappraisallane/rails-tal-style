@@ -3,13 +3,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = %q{tal_style}
-  spec.version       = '0.1.0'
+  spec.version       = '1.0.0'
   spec.authors       = ['The Appraisal Lane', 'Esteban Bordon']
   spec.email         = ['developers@theappraisallane.com', 'ebordon@gmail.com']
 
   spec.summary       = %q{Style guides to develop TAL applications in rails}
   spec.description   = 'Configuration files and other snippets to help you apply standards across multiple projects'
-  spec.homepage      = 'https://github.com/theappraisallane/tal_style'
+  spec.homepage      = 'https://github.com/theappraisallane/rails-tal-style'
   spec.license       = 'MIT'
 
   spec.post_install_message = <<-ENDOFMESSAGE
